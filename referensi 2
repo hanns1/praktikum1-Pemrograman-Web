@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrasi</title>
+</head>
+<body>
+
+    <h1>Registrasi Akun</h1>  <!-- Judul utama halaman -->
+
+    <label>Masukkan nama:</label>  <!-- Label untuk input nama -->
+    <input type="text" placeholder="Nama Lengkap" required>  <!-- Input teks untuk nama dengan placeholder -->
+    <br><br>
+
+    <label>Masukkan NIM:</label>  <!-- Label untuk input NIM -->
+    <input type="tel" placeholder="202*****" required>  <!-- Input untuk NIM dengan placeholder -->
+    <br><br>
+
+    <label>Masukkan email:</label>  <!-- Label untuk input email -->
+    <input type="email" placeholder="example@gmail.com" required>  <!-- Input email dengan validasi bawaan -->
+    <br><br>
+
+    <label>Jenis Kelamin:</label><br>  <!-- Label untuk input radio jenis kelamin -->
+    <input type="radio" name="gender" checked> Laki-Laki  <!-- Input radio untuk laki-laki (default terpilih) -->
+    <input type="radio" name="gender"> Perempuan  <!-- Input radio untuk perempuan -->
+    <br><br>
+
+    <label>Agama:</label>  <!-- Label untuk dropdown agama -->
+    <select>  <!-- Dropdown pilihan agama -->
+        <option selected>Islam</option>  <!-- Opsi Islam (default terpilih) -->
+        <option>Kristen</option>  <!-- Opsi Kristen -->
+        <option>Hindu</option>  <!-- Opsi Hindu -->
+        <option>Budha</option>  <!-- Opsi Budha -->
+    </select>
+    <br><br>
+
+    <label>Masukkan password:</label>  <!-- Label untuk input password -->
+    <input type="password" placeholder="admin123" required>  <!-- Input password dengan placeholder -->
+    <br><br>
+
+    <label>Konfirmasi password:</label>  <!-- Label untuk konfirmasi password -->
+    <input type="password" placeholder="admin123" required>  <!-- Input password kedua untuk validasi -->
+    <br><br>
+
+    <button type="button">Daftar</button>  <!-- Tombol untuk melakukan aksi tanpa form -->
+
+</body>
+</html>
