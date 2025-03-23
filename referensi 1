@@ -1,0 +1,60 @@
+<!DOCTYPE html>  <!-- Deklarasi tipe dokumen sebagai HTML5 -->
+<html lang="id">  <!-- Elemen utama HTML dengan atribut bahasa Indonesia -->
+
+<head>
+    <meta charset="UTF-8">  <!-- Menentukan karakter encoding UTF-8 untuk mendukung berbagai karakter -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  <!-- Mengatur tampilan agar responsif di perangkat mobile -->
+    <title>Biodataku</title>  <!-- Judul halaman yang akan tampil di tab browser -->
+</head>
+
+<body>
+
+    <h1>Biodataku</h1>  <!-- Judul utama halaman -->
+
+    <h2>Identitas Diri</h2>  <!-- Subjudul untuk bagian identitas diri -->
+    <img src="foto 1.jpeg" alt="Foto Profil" width="300">  <!-- Gambar profil dengan ukuran lebar 300 piksel -->
+
+    <ul>  <!-- List tidak berurutan untuk menampilkan data identitas -->
+        <li><strong>Nama:</strong> Raehan Rahmat Zaki</li>  <!-- Menampilkan nama -->
+        <li><strong>NIM:</strong> 202332090</li>  <!-- Menampilkan NIM -->
+        <li><strong>Prodi:</strong> Sistem Informasi</li>  <!-- Menampilkan program studi -->
+        <li><strong>Alamat:</strong> Jl.Beringin Air Hitam Perum Dwi Beringin Indah, Pekanbaru, Riau</li>  <!-- Menampilkan alamat -->
+        <li><strong>Email:</strong> raehanzaki18@gmail.com</li>  <!-- Menampilkan email -->
+    </ul>
+
+    <h2>Riwayat Pendidikan</h2>  <!-- Subjudul untuk bagian riwayat pendidikan -->
+    <table border="1">  <!-- Tabel dengan border (garis) -->
+        <tr>  <!-- Baris pertama sebagai header tabel -->
+            <th>No</th>  <!-- Kolom nomor -->
+            <th>Tingkat Pendidikan</th>  <!-- Kolom tingkat pendidikan -->
+            <th>Nama Sekolah</th>  <!-- Kolom nama sekolah -->
+            <th>Tahun Masuk-Lulus</th>  <!-- Kolom tahun masuk dan lulus -->
+        </tr>
+        <tr>  <!-- Baris kedua, data SD -->
+            <td>1</td>
+            <td>SD</td>
+            <td>SDS 1 YKPP</td>
+            <td>2011-2017</td>
+        </tr>
+        <tr>  <!-- Baris ketiga, data SMP -->
+            <td>2</td>
+            <td>SMP</td>
+            <td>PONPES Sumatra Tawalib Parabek</td>
+            <td>2017-2020</td>
+        </tr>
+        <tr>  <!-- Baris keempat, data SMA -->
+            <td>3</td>
+            <td>SMA</td>
+            <td>MAN 3 Pekanbaru</td>
+            <td>2020-2023</td>
+        </tr>
+        <tr>  <!-- Baris kelima, data S1 -->
+            <td>4</td>
+            <td>S1</td>
+            <td>Institut Teknologi PLN</td>
+            <td>2023-Sekarang</td>
+        </tr>
+    </table>
+
+</body>
+</html>
